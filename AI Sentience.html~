@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="site.css">
+    <title>
+      Eric's Portfolio | Fingerprints
+    </title>
+  </head>
+  
+
+
+  <body id="bg">
+    
+    <table class="quickBar">
+      <tr>
+
+	<!-- If another button is added, change the width of "quickBarH2" -->
+	
+	<th class="quickBarBox">
+	  <a href="https://codermerlin.com/users/eric-steiner/Digital%20Portfolio/index.html">
+	    <button class="quickBarButton quickBarTitle">
+	      <h2 class="quickBarH2">
+		Eric's Portfolio
+	      </h2>
+	    </button>
+	  </a>
+	</th>
+	
+	<!-- <th class="quickBarBox quickBarButtonSelected blueBox">
+	    <h2 class="quickBarH2">
+	      Menu 
+	    </h2>
+	</th> -->
+	
+	<th class="quickBarBox">
+	  <a href="https://codermerlin.com/users/eric-steiner/Digital%20Portfolio/lastYear.html">
+	    <button class="quickBarButton blueBox">
+	      <h2 class="quickBarH2">
+		Last Year...
+	      </h2>
+	    </button>
+	  </a>
+	</th>
+
+	<th class="quickBarBox">
+	  <a href="https://codermerlin.com/users/eric-steiner/Digital%20Portfolio/essays.html">
+	    <button class="quickBarButton blueBox">
+	      <h2 class="quickBarH2">
+		Essays
+	      </h2>
+	    </button>
+	</th>
+	
+      </tr>
+    </table>
+    
+    <div class="apaBox largeBox noTitleMargin">
+
+      <h2 class="apaText pageCenter">
+	Fingerprints
+      </h2>
+      <p class="apaText indent">
+	A secure hypertext transfer protocol (HTTPS) connection, known as secure sockets layer (SSL) aims to both protect the user of a website from being tracked and protect the host of the website from being hacked by requiring the website to send a certificate to a certificate authority (CA), proving the website's authenticity. An HTTPS proxy appliance, however, can interrupt a "secure" connection to a user and can emulate the website to the user while also tracking them by presenting a fake certificate to the user. This is an example of a man-in-the-middle attack, also called MITM, which threatens the security of both the host and user.
+      </p>
+      
+      <p class="apaText indent">
+	The certificate proving a website is secure is identified by a hash, a group of two digit hexadecimal numbers, which is called the website's fingerprint. Hashes are considered "better" when based upon Secure Hashing Algorithm 1 (SHA1) compared to Message Digest 5 (MD5) and when they are longer due to the chance that more digits would change, making it easier to detect when someone makes a fake certificate (i.e. an HTTPS proxy appliance). To detect an SSL interception, simply compare your browser's fingerprint with the actual fingerprint of the website (preferrably by checking the fingerprint <a class="link" href="https://grc.com/fingerprints.htm#top">here</a>). The only way to prevent an interception, however, is to use a secure network that you know is safe, such as your house wifi.
+      </p>
+
+      <p class="apaText indent">
+	False positives to interception checks can occur due to many websites having multiple certificates, and not user recieves the same one, so fingerprints might not match due to the wrong certificate being checked. <br>
+	False negatives can occur when the intercepter has knowledge of the check, and may create an exception to the website being checked, so that website may be the only one that displays the authentic certificate. A false negative can also occur when the proxy appliance edits the website checker to display the forged thumbprint so it looks as if the connection is secure.
+      </p>
+      
+      <p class="apaText indent">
+	I would say that the government has the right to eavesdrop on communications, but the fact that they even do this with minors is not okay. There needs to be some sort of limitation that prevents the security of young people from being broken by anyone, even the government.
+      </p>
+
+      <!-- Include a flowchart -->
+      
+    </div>
+  </body>
+</html>

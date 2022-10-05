@@ -1,6 +1,185 @@
-.large {
+:root {
+    --lBlue: rgb(100,100,255);
+    --mBlue: rgb(50,50,203);
+    --dBlue: rgb(0,0,150);
+    
+    --lGray: rgb(225,225,225);
+    --mGray: rgb(150,150,150);
+    --dGray: rgb(30,30,30);
+
+    --lOrange: rgb(255,200,50);
+    --mOrange: rgb(203,139,25);
+    --dOrange: rgb(175,125,0);
+}
+
+#bg {
+    background-color: var(--dGray);
+    background-image: linear-gradient(to right, var(--dGray),black);
+    /*background-image: url("https://static.thenounproject.com/png/944952-200.png");*/
+    background-size: 5%;
+    margin: 0px;
+}
+
+h1 {
     width: 75%;
-    margin: 25%;
-    border: 4px solid black;
+    height: 20%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    color: var(--lGray);
+    font-size: 4em;
+    font-family: Monaco, monospace;
+    text-align: center;
+}
+
+.largeMargin {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    width: 75%;
+    height: 5%;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 2.5em;
+    font-family: "Courier New", monospace;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 1.25em;
+    font-family: "Lucidia Console", monospace;
+    margin-bottom: 10%
+}
+
+.pageCenter {
+    margin-left: 13%;
+}
+
+.rimg {
+    float: right;
+}
+
+.largeBox {
+    width: 50%;
+    /*height: 40%;*/
+    margin-left: 15%;
+    margin-top: 0px;
+    margin-bottom: 5%;
     padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.blueBox {
+    border: 4px solid black;
+    background-color: var(--mBlue);
+    background-image: linear-gradient(to bottom right, var(--lBlue), var(--dBlue));
+}
+
+.whiteBox {
+    border: 8px dashed var(--mBlue);
+    background-color: var(--lGray);
+    background-image: linear-gradient(to bottom right, white, var(--mGray));
+}
+
+.orangeBox {
+    border: 8px ridge;
+    background-color: var(--mOrange);
+    background-image: linear-gradient(to bottom right, var(--lOrange), var(--dOrange));
+}
+
+.apaBox {
+    border: 4px solid black;
+    background-color: white;
+    padding-bottom: 7%;
+}
+
+.noTitleMargin {
+    margin-top: 5%;
+}
+
+.quickBar {
+    width: 100%;
+    margin: 0px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    /*float: left;*/
+}
+
+.quickBarBox {
+    padding: 0px;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.quickBarButton {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 1%;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.quickBarButton:hover {
+    background-image: linear-gradient(to bottom right, rgb(50,50,128), rgb(0,0,75));
+    color: rgb(113,113,113);
+}
+
+.quickBarButtonSelected {
+    background-image: linear-gradient(to bottom right, rgb(25,25,102), rgb(25,25,102));
+    background-color: rgb(25,25,102);
+    border: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    cursor: not-allowed;
+}
+
+.quickBarH2 {
+    color: var(--lGray);
+    font-family: "Courier New", monospace;
+    font-size: 2em;
+    width: 300px;
+    height: 10px;
+}
+
+.quickBarTitle {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    float: right;
+}
+
+.blueText {
+    color: var(--mBlue);
+}
+
+.apaText {
+    color: black;
+    line-height: 200%;
+    font-family: "Times New Roman", serif;
+    margin-bottom: 0px;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.indent {
+    text-indent: 4em;
 }

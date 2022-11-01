@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../../site.css">
+    <title>
+      Eric's Portfolio | The ISP
+    </title>
+  </head>
+  
+
+
+  <body id="bg">
+    
+    <table class="quickBar">
+      <tr>
+
+	<!-- If another button is added, change the width of "quickBarH2" -->
+	
+	<th class="quickBarBox">
+	  <a href="https://codermerlin.com/users/eric-steiner/Digital%20Portfolio/index.html">
+	    <button class="quickBarButton quickBarTitle">
+	      <h2 class="quickBarH2">
+		Eric's Portfolio
+	      </h2>
+	    </button>
+	  </a>
+	</th>
+	
+	<!-- <th class="quickBarBox quickBarButtonSelected blueBox">
+	    <h2 class="quickBarH2">
+	      Menu 
+	    </h2>
+	</th> -->
+	
+	<th class="quickBarBox">
+	  <a href="https://codermerlin.com/users/eric-steiner/Digital%20Portfolio/lastYear.html">
+	    <button class="quickBarButton blueBox">
+	      <h2 class="quickBarH2">
+		Last Year...
+	      </h2>
+	    </button>
+	  </a>
+	</th>
+
+	<th class="quickBarBox">
+	  <a href="https://codermerlin.com/users/eric-steiner/Digital%20Portfolio/essays.html">
+	  <button class="quickBarButton blueBox">
+	    <h2 class="quickBarH2">
+	      Essays
+	    </h2>
+	  </button>
+	  </a>
+	</th>
+
+	<th class="quickBarBox quickBarButtonSelected blueBox">
+	    <h2 class="quickBarH2">
+	      The ISP
+	    </h2>
+	</th>
+
+      </tr>
+    </table>
+    
+    <h1>
+      The ISP
+    </h1>
+
+    <div class="blueBox largeBox">
+
+      <p class="codeText">
+	Our plan is to make a game on Unity with fast and engaging gameplay with fun aesthetics, made for people who want something satisfying to both play and watch.
+      </p>
+
+      <div class="whiteBox largeBox codeText">
+	Some roles include
+	<ul>
+	  <li>
+	    Main programmer
+	  </li>
+	  <li>
+	    Graphic designer
+	  </li>
+	  <li>
+	    Social media manager
+	  </li>
+	  <li>
+	    Treasurer
+	  </li>
+	</ul>
+	</div>
+	
+      <p>
+	Competition is tough, so our unique combat system would provide something new to the audience, and hopefully bring in more consumers. We'd advertize it on social media to have people relate to us and our goal. We would sell the game on Steam where we would also get the money from them, and our only expenses would be the percentage of our revenue taken away by Steam in order to display it on their website and purchasing a Unity license which is required if we're to make money off of the project.
+      </p>
+    </div>
+  </body>
+</html>
